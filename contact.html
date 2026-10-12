@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Say hello · Wee Greens</title>
+<meta name="description" content="Wee Greens — small-batch microgreens grown in Edinburgh by two sisters, between nap-times.">
+<meta name="theme-color" content="#4f6b2e">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IM+Fell+English+SC&family=IM+Fell+French+Canon:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Main">
+    <a class="brand" href="index.html" aria-label="Wee Greens home">
+      <img class="seal" src="assets/logo.svg" width="150" height="157" alt="Wee Greens — Edinburgh microgreens">
+    </a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">Our Story</a></li>
+      <li><a href="shop.html">The Greens</a></li>
+      <li><a class="boxed" href="contact.html" aria-current="page">Order a Tray</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+
+<section class="page-hero wrap center reveal">
+  <div class="kick">Say hello</div>
+  <h1>Order a<br><em>tray</em></h1>
+  <span class="hand">~ a wee enquiry is enough for now ~</span>
+  <p class="lead">Online ordering isn't live yet. Tell us your name, where you are in Edinburgh, and which greens you'd like — we'll write back when the shed is ready.</p>
+</section>
+<section class="wrap">
+  <div class="split">
+    <form class="form ledger reveal" id="enquiry-form" novalidate>
+      <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" required autocomplete="name"></div>
+      <div class="row2">
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+        <div class="field"><label for="area">Whereabouts <span class="hint">(Edinburgh)</span></label><input id="area" name="area" type="text" placeholder="e.g. Leith, Stockbridge"></div>
+      </div>
+      <div class="field"><label for="topic">About</label>
+        <select id="topic" name="topic">
+          <option>Tray enquiry</option>
+          <option>Café / kitchen supply</option>
+          <option>Let me know when you launch</option>
+          <option>Just saying hello</option>
+        </select>
+      </div>
+      <fieldset class="field"><legend>Greens you're after</legend>
+        <div class="checks">
+          <label><input type="checkbox" name="greens" value="pea"> Pea shoots</label>
+          <label><input type="checkbox" name="greens" value="radish"> Radish</label>
+          <label><input type="checkbox" name="greens" value="sunflower"> Sunflower</label>
+          <label><input type="checkbox" name="greens" value="coriander"> Coriander</label>
+          <label><input type="checkbox" name="greens" value="mix"> Wee Mix</label>
+          <label><input type="checkbox" name="greens" value="box"> Wee Box</label>
+        </div>
+      </fieldset>
+      <div class="field"><label for="message">A note</label><textarea id="message" name="message" required placeholder="How many trays, which day, anything else…"></textarea></div>
+      <button class="btn" type="submit">Send a wee note</button>
+      <p class="form-status" id="form-status" tabindex="-1"></p>
+    </form>
+    <div class="reveal">
+      <div class="plate" style="margin-bottom:28px">
+        <img class="seal-large" src="assets/logo.svg" width="220" height="220" alt="Wee Greens seal">
+        <div class="cap">Wee Greens<i>— Edinburgh microgreens</i></div>
+      </div>
+      <ul class="contact-list">
+        <li><strong>Post</strong> Edinburgh shed · address when we're open</li>
+        <li><strong>Delivery</strong> Free across Edinburgh · Tue &amp; Fri (planned)</li>
+        <li><strong>Cafés</strong> Welcome — say you're a kitchen in the form</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="inner wrap">
+    <div>
+      <h4>Wee Greens</h4>
+      <p>Small-batch microgreens, grown slow in Edinburgh by two sisters, cut the morning they reach you.</p>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <ul>
+        <li><a href="about.html">Our story</a></li>
+        <li><a href="shop.html">This week's greens</a></li>
+        <li><a href="contact.html">Say hello</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Notes</h4>
+      <ul>
+        <li>Working draft · prices are a guide</li>
+        <li>Free local delivery · Edinburgh</li>
+        <li>Plastic-free trays where we can</li>
+      </ul>
+    </div>
+    <p class="foot-hand"><span>✿ grown between feeds &amp; naps</span><span>© <span data-year>2026</span> Wee Greens</span></p>
+  </div>
+</footer>
+<script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" role="img" aria-label="Wee Greens">
+  <rect width="440" height="440" fill="#f3ead6"/>
+  <circle cx="220" cy="155" r="118" fill="#f6eedb" stroke="#3b2a1c" stroke-width="5"/>
+  <circle cx="220" cy="155" r="100" fill="none" stroke="#4f6b2e" stroke-width="3" stroke-dasharray="7 5"/>
+  <g fill="none" stroke="#2f2216" stroke-width="4" stroke-linecap="round" transform="translate(220 255)">
+    <path d="M-68 0 Q0 -10 68 0"/>
+    <path d="M0 -4 C-4 -68 8 -118 0 -180 C-6 -215 8 -245 16 -270"/>
+    <path d="M-4 -92 c-36 -5 -66 -28 -72 -70 c38 4 66 32 72 70z" fill="#9fb07c"/>
+    <path d="M4 -132 c32 -6 62 -30 68 -72 c-38 4 -62 34 -68 72z" fill="#9fb07c"/>
+    <path d="M-46 -28 c-26 -4 -46 -22 -50 -50 c26 4 46 22 50 50z" fill="#b8c49a"/>
+    <path d="M46 -52 c24 -4 44 -22 48 -50 c-26 4 -44 22 -48 50z" fill="#b8c49a"/>
+  </g>
+  <text x="220" y="340" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" letter-spacing="6" fill="#3b2a1c">WEE GREENS</text>
+  <text x="220" y="375" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" letter-spacing="4" fill="#4f6b2e">EDINBURGH MICROGREENS</text>
+  <text x="220" y="405" text-anchor="middle" font-family="Georgia, serif" font-size="14" letter-spacing="2" fill="#7a5634">est. 2026</text>
+</svg>
